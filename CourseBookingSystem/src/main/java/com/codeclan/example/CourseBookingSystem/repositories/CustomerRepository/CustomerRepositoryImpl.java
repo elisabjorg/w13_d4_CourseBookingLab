@@ -35,15 +35,15 @@ public class CustomerRepositoryImpl implements CustomerRepositoryCustom {
         return result;
     }
 
-    @Transactional
-    public List<Customer> getAllCustomersByTownAndCourseId(String townName, Long id){
-        List<Customer> result = null;
-        Session session = entityManager.unwrap(Session.class);
-        try{
-            Criteria cr = session.createCriteria(Customer.class);
-
-            cr.createAlias("")
-        }
+//    @Transactional
+//    public List<Customer> getAllCustomersByTownAndCourseId(String townName, Long id){
+//        List<Customer> result = null;
+//        Session session = entityManager.unwrap(Session.class);
+//        try{
+//            Criteria cr = session.createCriteria(Customer.class);
+//
+//            cr.createAlias("")
+//        }
 
     }
-}
+
